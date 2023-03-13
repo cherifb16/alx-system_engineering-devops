@@ -1,2 +1,2 @@
 #!/bin/bash
-if touch '*\\'"Best School"\'\\*$\?\*\*\*\*\*:' && echo "Best School" >> '*\\'"Best School"\'\\*$\?\*\*\*\*\*:' && echo "" >> '*\\'"Best School"\'\\*$\?\*\*\*\*\*:'; then :; fi
+echo "Best School" > "\\*\\\'\"Best School\"\'\\\*\$\?\*\*\*\*\*:)"
