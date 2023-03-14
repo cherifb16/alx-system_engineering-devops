@@ -1,2 +1,2 @@
 #!/bin/bash
-( set -o posix && set ) | grep -E '^[[:alpha:]_]+=' | sort
+compgen -A variable -A function | sort
