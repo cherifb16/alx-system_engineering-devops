@@ -1,2 +1,2 @@
 #!/bin/bash
-{ env | cut -d= -f1 & compgen -A function; } | sort
+compgen -A variable -A function | sort
