@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | sort
+compgen -A variable -A function -abck | sort | grep -v '^\_'
