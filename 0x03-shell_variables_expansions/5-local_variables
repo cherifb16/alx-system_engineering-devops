@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -A variable -A function -abck | sort | grep -v '^\_'
+echo $(set | grep '^[[:alpha:]][[:alnum:]_]*=' | tr '\n' ' ') $(env | grep -o '^[^=]*' | tr '\n' ' ') $(declare -F | cut -d' ' -f3)
